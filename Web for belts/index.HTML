@@ -21,12 +21,29 @@
     <h1>Welcome to the home page of Belts'A'Plenty ,
         here you will find all kinds of things to minorly make your day that much longer. click on the catalogue page to view our selection of belt clothing.</h1>
     </div>
+    <div class="imgslider">
+  <script>
     
-    <div class ="gridborder">
-
-    <div class="gridshirt">
-        <h1>preveiw</h1>
-    <img src="Shirt%20belt-Recovered.png" width="250px">
-        </div>
+    var imgs = [
+      'logo1.jpg', 'Shirt%20belt-Recovered.png', 'logo1.jpg'
+        
+    ];
+    var counter = 0;
+    
+    function change(){
+        counter++;
+        document.getElementById('slider').src = imgs[counter];
+        
+        if(counter >= 2){
+           counter = 0;
+        }
+        
+    }
+</script>
+    
+   
+    <img id="slider" onclick="change()" src="logo1.jpg" >
+    <h1>click to preveiw</h1>
     </div>
+    
 </body>
