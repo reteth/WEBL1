@@ -29,7 +29,7 @@ nav a {
 body{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr auto;
-    grid-template-rows: 1fr 1fr 1fr  auto;
+    grid-template-rows: 1fr 1fr 1fr auto;
 }
 
 .gridnav{
@@ -152,9 +152,8 @@ h2{
 width:20px;
 }
 
-.beltjeanP{
-    width: 700px;
-}
+
+
 .beltjeanP{
     width: 320px;
 }
